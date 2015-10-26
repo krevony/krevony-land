@@ -1,116 +1,68 @@
-<!doctype html>
+!doctype html>
 <html>
-	<head>
-		<title>Kyland</title>
-		<style>
-			body{margin: 10px;
-padding: 0px;
-background: #FFFFFF;
-color: #A1B2B3;
-font-size:14px;
-font-weight:300;
-font-family: source-sans-pro, sans-serif;
-text-align:center;
-}
+<head>
+<title>Krevony Land</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="shortcut icon" type="image/png" href="/favicon.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-.profile{width:120px;height:120px;border-radius:0%;}
-img.icon{width:180px;margin:25px;-webkit-transition:.15s ease-in-out all;cursor:pointer}
-img.icon:hover{-webkit-transform:scale(1.1)}
-header, footer{padding:10px 0}
-header h1{font-size:40px;font-weight:300;margin-top:20px;margin-bottom:20px;color:#859293}
-hr{
-opacity: .1;
-max-width: 800px;
-margin: 20px auto;
-border: 0;
-height: 1px;
-background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0));
-background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0));
-background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0));
-background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.9), rgba(0,0,0,0));
-}
-		</style>
-		<link rel="stylesheet" href="./css.css">
-	</head>
-	<body>
-		<div id="header">
-			<div id="header-content">
-				<div class="nav">
-					<div class="nav-active"><a href="/">portfolio</a></div>
-					<div class="nav-inactive"><a href="/goodies">goodies</a></div>
-					<div class="nav-inactive"><a href="/fyzzio">fyzzio</a></div>
-					<div class="nav-inactive"><a href="http://krevony.tumblr.com">blog</a></div>
-				</div>
+<meta name="viewport" content="initial-scale=1, user-scalable=no">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.io/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.slideshow').cycle({
+			fx: 'fade',
+			timeout: 5000,
+			pause: false,
+			speed: 1000
+		});
+	});
+	</script>
+
+<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-33814562-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div id="header-content">
+			<a href="/"><img id="face" src="/land/logo@2x.png" alt="kyle" />
+			<img id="logo" src="krevony.png" alt="krevony" /></a>
+			<div class="nav">
+				<div class="nav-active"><a href="/">home</a></div>
+				<div class="nav-inactive"><a href="/portfolio">portfolio</a></div>
+				<div class="nav-inactive"><a href="/goodies">goodies</a></div>
+				<div class="nav-inactive"><a href="http://krevony.tumblr.com">blog</a></div>
+				<div class="nav-inactive"><a href="http://parakeet.co" target="_top">hire me</a></div>
 			</div>
 		</div>
-		<header>
-			<img src="krevony.png" alt="" class="profile" />
-			<h1>Kyle Revony</h1>
-			<hr />
-			<p>Mac Apps</p>
-			<img src="gz.png" class="icon" alt="" />
-			<img src="ms.png" class="icon" alt="" />
-			<img src="df.png" class="icon" alt="" />
-			<img src="sn.png" class="icon" alt="" />
-			<hr />
-			<p>AppStore Apps</p>
-		</header>
-		<div class="container">
-			<img src="phbus.png" class="icon" alt="" />
-			<img src="musis.png" class="icon" alt="" />
-			<img src="whattopack.png" class="icon" alt="" />
-			<img src="iktv.png" class="icon" alt="" />
-			<br />
-			<img src="randomi.png" class="icon" alt="" />
-			<img src="rigveda.png" class="icon" alt="" />
-			<img src="check.png" class="icon" alt="" />
-			<br />
-		<hr />
-		<p>HASHBANG #!</p>
-			<img src="ts.png" class="icon" alt="" />
-			<img src="repower.png" class="icon" alt="" />
-			<img src="ss.png" class="icon" alt="" />
-			<img src="mo.png" class="icon" alt="" />
-			<br />
-			<img src="fp.png" class="icon" alt="" />
-			<img src="sa.png" class="icon" alt="" />
-			<img src="pth.png" class="icon" alt="" />
-			<img src="mnbr.png" class="icon" alt="" />
-			<br />
-		<hr />
-		<p>Cydia tweaks</p>
-			<img src="vh8.png" class="icon" alt="" />
-			<img src="zeppelin.png" class="icon" alt="" />
-			<img src="tf.png" class="icon" alt="" />
-			<img src="ec.png" class="icon" alt="" />
-			<br />
-			<img src="ab.png" class="icon" alt="" />
-			<img src="pt.png" class="icon" alt="" />
-			<img src="tb.png" class="icon" alt="" />
-			<img src="keyswitcher.png" class="icon" alt="" />
-			<br />
-			<img src="fily.png" class="icon" alt="" />
-			<img src="faces.png" class="icon" alt="" />
-			<img src="ad.png" class="icon" alt="" />
-			<img src="edgio.png" class="icon" alt="" />
-			<br />
-			<img src="fc.png" class="icon" alt="" />
-			<img src="cls.png" class="icon" alt="" />
-			<img src="gm.png" class="icon" alt="" />
-			<img src="cchide.png" class="icon" alt="" />
-	  	<br />
-			<img src="otm.png" class="icon" alt="" />
-			<img src="ttf.png" class="icon" alt="" />
-			<img src="ddd.png" class="icon" alt="" />
-			<hr />
-			<p>Work EXP</p>
-			<img src="hbl.png" class="icon" alt="" />
-			<img src="fzl.png" class="icon" alt="" />
-		</div>
-		<footer>
-			<hr />
-			<p>Made with &hearts; by krevony &amp; wincomi.</p>
-			<p>Check out my <a class="pink" href="http://dribbble.com/krevony" target="_blank">dribbble</a>, <a class="blue" href="http://twitter.com/krevony" target="_blank">Twitter</a> and <a class="blue" href="http://github.com/krevony" target="_blank">Github</a>.
-		</footer>
-	</body>
+	</div>
+<div class="slideshow" id="homepage">
+<a href=about><img src="/land/ab.png"></a>
+<a href=goodies><img src="/land/gozip.png"></a>
+<a href=fyzzio><img src="/land/edgio.png"></a>
+<a href=http://itunes.apple.com/app/id849003298><img src="/land/musis.png"></a>
+<a href=http://macnews.tistory.com/3272><img src="/land/b2m.png"></a>
+</div>
+<div id="footer" style="padding-top: 7px;">
+Made with &hearts; by krevony. &copy; 2015
+</div>
+
+<script type="text/javascript" src="http://www.icj.me/assets/js/retina.js"></script>
+</body>
 </html>
